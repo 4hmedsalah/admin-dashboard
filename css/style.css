@@ -46,6 +46,11 @@ body {
     width: 20px;
 }
 
+.header #icon {
+    vertical-align: middle;
+    margin-right: initial;
+}
+
 .sidebar a {
     margin-left: 10px;
     text-decoration: none;
@@ -54,4 +59,53 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 30px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+    font-weight: 700;
+}
+
+.header input {
+    width: 75%;
+    border-radius: 15px;
+    background-color: #D9E2EC;
+    border: none;
+    height: 30px;
+    padding: 0 12px;
+}
+
+.header-top-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 24px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.pfp-small {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
 }
