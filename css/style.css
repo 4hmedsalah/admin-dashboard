@@ -114,6 +114,12 @@ body {
     gap: 16px;
 }
 
+.action-buttons {
+    place-self: center end;
+    display: flex;
+    gap: 24px;
+}
+
 .pfp-small {
     width: 48px;
     height: 48px;
@@ -126,4 +132,21 @@ body {
     height: 64px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+button {
+    color: #87EAF2;
+    background-color: #102A43;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid #102A43;
+}
+
+#new-button {
+    color: #102A43;
+    background-color: #87EAF2;
+    border: 1px solid #87EAF2;
 }
