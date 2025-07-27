@@ -298,3 +298,46 @@ main {
     color: #627D98;
     line-height: 1.4;
 }
+
+.announcements-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.announcements-card {
+    background: white;
+    border-radius: 8px;
+    padding: 0.90rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0.5rem;
+}
+
+.announcement-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #E2E8F0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.announcement-item:last-child {
+    border-bottom: none;
+}
+
+.announcement-text {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #102A43;
+    margin-bottom: 0.5rem;
+}
+
+.announcement-item p {
+    font-size: 0.85rem;
+    color: #627D98;
+    line-height: 1.4;
+}
